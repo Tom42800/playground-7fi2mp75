@@ -50,6 +50,7 @@ let maSpecialite = 'SLAM';
     console.log(maSpecialite);
 
 ```
+```javascript 
 import unittest
 
 def add(x,y):
@@ -61,3 +62,18 @@ class MyTest(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+```
+
+```javascript runnable
+import unittest
+
+def add(x,y):
+    return x + y
+
+class MyTest(unittest.TestCase):
+    def test(self):
+        self.assertEqual(add(3,4), 7)
+
+if __name__ == '__main__':
+    unittest.main()
+```
